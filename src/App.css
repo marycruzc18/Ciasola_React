@@ -1,0 +1,45 @@
+body{
+   
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden; 
+} 
+
+.navbar_principal {
+
+  background:  linear-gradient(26.99deg, #BF8A7E -38.03%, rgba(101, 54, 158, 0) 137.84%);
+ 
+}
+
+.texto_principal{
+
+  margin-top: 40px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.logo{
+
+  width: 100px;
+  height: 100px;
+  
+}
+
+.acordeon{
+  text-align:center;
+}
+
+.carrito{
+  float: right;
+}
+
+.li{
+list-style: none;
+}
+
+.dropdown-menu:hover{
+  background: linear-gradient(
+    180deg,
+    #F2CBC2 -18.18%,
+    rgba(217, 217, 217, 0) 
+);
+}
