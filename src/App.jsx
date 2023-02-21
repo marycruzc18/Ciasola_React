@@ -1,17 +1,31 @@
-import { useState } from 'react'
-import './App.css'
-import ItemListContainer from './components/ItemListContainer'
-import Navbar from './components/NavBar'
+import React from "react";
+import ItemListContainer from "./components/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetailContainer";
+import Navbar from "./components/NavBar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
 
-function App() {
+const  App = () => {
  
 
   return (
-    <>
-     <Navbar/>
-     <ItemListContainer greeting={"Bienvenidos a Ciasola"}/>
-    </>
-  )
-}
 
-export default App
+    <BrowserRouter>
+
+     <Navbar/>
+
+     <Routes>
+
+      <Route exact path="/" element= {<ItemListContainer />} />
+
+      <Route exact path="/category/:category" element= {<ItemListContainer/>} />
+
+      <Route exact path="/item/:id" element= {<ItemDetailContainer/>} />
+
+     </Routes>
+
+    </BrowserRouter>
+  );
+};
+
+export default App;
