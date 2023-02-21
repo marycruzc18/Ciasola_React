@@ -1,0 +1,11 @@
+[
+
+    {"id": 1,"nombre":"Zarcillos","stock":10,"precio": 1000,"img": "../zarcillos_3.jpg", "category": "zarcillos"},
+    {"id": 2,"nombre":"Lentes","stock":40,"precio": 1500,"img": "../lentes_2.jpg","category": "lentes"},
+    {"id": 3,"nombre":"Anillo","stock":20,"precio": 2500,"img": "../anillo_2.jpg","category": "anillo"},
+    {"id": 4,"nombre":"Anillo Princesa","stock":10,"precio": 2500,"img": "../anillo_4.jpg","category": "anillo"},
+    {"id": 5,"nombre": "Cadena","stock":25,"precio": 3500,"img": "../cadena_2.jpg","category": "cadena"},
+    {"id": 6,"nombre": "Cadena Tejida","stock":15,"precio": 3500,"img": "../cadena_3.jpg","category": "cadena"}
+    
+    
+    ]
